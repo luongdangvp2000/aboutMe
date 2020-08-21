@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./Picture/pexels-emiliano-arano-1295138.jpg) no-repeat;
+    background-size: cover;
+}
+
+#my-sign{ 
+    width: 15em;
+    right: 90%;
+    display: inline;
+    border-radius: 50%;
+    
+}
+
+#hi-my-friend{
+    position: relative;
+    left: 1em;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.box{
+    width: 450px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin: auto;
+}
+
+#my-face{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.intro{
+    color: whitesmoke;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.box ul{
+    margin: 0;
+    padding: 0;
+}
+
+.box ul li{
+    display: inline-block;
+    margin: 6px;
+    list-style: armenian;
+}
+
+.box li a{
+    color:whitesmoke;
+    font-size: 40px;
+    transition-duration: 250ms;
+}
+
+.box li a:hover{
+    color: #b9b9b9;
+}
