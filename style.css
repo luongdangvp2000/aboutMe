@@ -5,28 +5,15 @@ body{
     background-size: cover;
 }
 
-#my-sign{ 
-    width: 15em;
-    right: 90%;
-    display: inline;
-    border-radius: 50%;
-    
-}
-
-#hi-my-friend{
-    position: relative;
-    left: 1em;
-    font-family: 'Dancing Script', cursive;
-
-}
-
 .box{
     width: 450px;
     padding: 30px;
     background-color: rgba(0, 0, 0, 0.4);
     text-align: center;
     margin: auto;
+    margin-top: 8%;
 }
+
 
 #my-face{
     width: 150px;
