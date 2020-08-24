@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+.first-page{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+#background-of-first-page{
+    resize: both;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    
+}
+
+.caption-of-first-page{
+    text-align: center;
+    color: whitesmoke;
+    overflow: hidden;
+    margin: auto;
+    text-transform: uppercase;
+    display: block;
+    
+}
+
+.second-page{
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-items: center;
+    
+}
+
+#background-of-second-page{
+    resize: both;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.about-my-self{
+    width: 450px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin: auto;
+    margin-top: 8%;
+}
+
+
+#my-face{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.intro{
+    color: whitesmoke;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.box ul{
+    margin: 0;
+    padding: 0;
+}
+
+.box ul li{
+    display: inline-block;
+    margin: 6px;
+    list-style: armenian;
+}
+
+.box li a{
+    color:whitesmoke;
+    font-size: 40px;
+    transition-duration: 250ms;
+}
+
+.box li a:hover{
+    color: #b9b9b9;
+}
