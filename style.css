@@ -80,6 +80,7 @@ body{
     text-align: center;
     margin: auto;
     margin-top: 8%;
+    animation: box 4s 1;
 }
 
 #my-face{
@@ -113,4 +114,10 @@ body{
     color: #b9b9b9;
 }
 
+
+@keyframes box{
+    0%{
+        transform: translateX(100%);
+    }
+}
 
