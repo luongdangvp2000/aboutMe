@@ -15,13 +15,14 @@ body{
     background-size: cover; 
     background-position: center;
     height: 100vh;
+    position: absolute;
 }
 
 .welcome{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 .caption-of-first-page{
@@ -71,6 +72,9 @@ body{
     background-size: cover;
     background-position: center;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    position: absolute;
 }
 
 .about-my-self{
@@ -79,7 +83,6 @@ body{
     background-color: rgba(0, 0, 0, 0.4);
     text-align: center;
     margin: auto;
-    margin-top: 8%;
     animation: box 4s 1;
 }
 
@@ -138,4 +141,18 @@ body{
     [class*="col-"] {
         width: 100%;
       }
+}
+
+.slide-in{
+    animation: slide-in 2s ease forwards;
+}
+
+@keyframes slide-in{
+    from{
+        transform: translateX(100%);
+        visibility: visible;
+    }
+    to{
+        transform: translateX(0%)
+    }
 }
